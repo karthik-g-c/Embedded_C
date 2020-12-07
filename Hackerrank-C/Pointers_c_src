@@ -3,7 +3,8 @@
 void update(int *a,int *b) {
     // Complete this function
     int d=*a + *b,s=*a - *b;
-    if(s<0){s=-1 * s;}
+    if(s<0)
+        s = -1 * s;
 
     return *a=d,*b=s;
 }
