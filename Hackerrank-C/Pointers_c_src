@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+void update(int *a,int *b) {
+    // Complete this function
+    int d=*a + *b,s=*a - *b;
+    if(s<0){s=-1 * s;}
+
+    return *a=d,*b=s;
+}
+
+int main() {
+    int a, b;
+    int *pa = &a, *pb = &b;
+    
+    scanf("%d %d", &a, &b);
+    update(pa, pb);
+    printf("%d\n%d", a, b);
+
+    return 0;
+}
