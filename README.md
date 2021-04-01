@@ -1,2 +1,2 @@
 # Embedded_C
-My respository was based on the embedded systems and the programs written by me.
+My respository is based on the embedded systems and embedded programs, which are written by me.
